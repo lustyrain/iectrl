@@ -4,8 +4,7 @@
   "description": "Command line interface and Node module for managing ievms virtual machines",
   "main": "index.js",
   "scripts": {
-    "test": "coffeelint -r src && mocha",
-    "prepublish": "coffee -cbo lib src"
+    "test": "coffeelint -r src && mocha"
   },
   "repository": {
     "type": "git",
@@ -33,11 +32,9 @@
     "debug": "~0.7.2"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.3",
     "groc": "~0.4.0",
     "mocha": "~1.11.0",
-    "should": "~1.2.2",
-    "coffeelint": "~0.5.6"
+    "should": "~1.2.2"
   },
   "bin": {
     "iectrl": "./bin/iectrl"
